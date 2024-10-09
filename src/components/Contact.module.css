@@ -1,0 +1,18 @@
+.contactWrapper {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 18px;
+  position: relative;
+  min-width: 348px;
+}
+.wrapper {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.deleteBtn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
