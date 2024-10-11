@@ -1,7 +1,7 @@
 import { Suspense } from "react";
-import PropTypes from 'prop-types';
-import AppBar from "./components/AppBar";
-import Loader from "./components/Loader";
+
+import AppBar from "./components/AppBar/AppBar";
+import Loader from "./components/Loader/Loader";
 
 const Layout = ({ children }) => {
   return (
@@ -11,7 +11,5 @@ const Layout = ({ children }) => {
     </div>
   );
 };
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+
 export default Layout;
